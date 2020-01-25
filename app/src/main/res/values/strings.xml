@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">RateIT</string>
-    <string name="mapkey">AIzaSyC2qX9PdXXRFlQyYLqdwKwul_4ZNURgTkA</string>
+    <string name="mapkey">place your map api key here</string>
     <string name="nofav">You have no Favourites Added.</string>
     <string name="nointernet">It seems you are not connected to Internet</string>
 </resources>
