@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="result"
+            type="com.smsol.rateit.model.Result" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:text="@{result.name}"
+            android:textSize="18sp"
+            app:fontFamily="@font/almendra_bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.5"
+            android:text="@{result.vicinity}"
+            android:paddingBottom="3dp"
+            android:textSize="16sp"
+            app:fontFamily="@font/almendra" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:numStars="5"
+            android:rating="@{result.userrating}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</layout>
+

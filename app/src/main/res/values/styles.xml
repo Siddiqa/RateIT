@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryVariant">#D32F2F</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#b71212</item>
+        <item name="colorSecondaryVariant">#c21d1d</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorError">#F44336</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#ffe7e7</item>
+        <item name="android:colorBackground">#ffffff</item>
+        <item name="colorOnBackground">#fae6e6</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+</resources>
